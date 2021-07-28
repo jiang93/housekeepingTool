@@ -1,0 +1,11 @@
+#This is a YAML File that specifies the directory, configuration, and limitation for the housekeepingTool Program. 
+#configuration can only be maximumNumberOfFiles or maximumNumberOfDays, other configuration will not be accepted by the program
+#limit refers to the maximum number of files to keep or the number of days to keep. 
+#In directory /Users/jianghy/Downloads/myDoc, keep 10 files.
+directory: /Users/jianghy/Downloads/myDoc
+configuration: maximumNumberOfFiles
+limit: 10
+#In directory /Users/jianghy/Downloads/myDoccopy, delete files older than 10 days. 
+directory: /Users/jianghy/Downloads/myDoccopy
+configuration: maximumNumberOfDays
+limit: 10
